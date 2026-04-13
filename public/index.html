@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>🎨 iPhone Wallpaper Automation</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; background: #0a0a0a; color: #fff; }
+    .hero { text-align: center; padding: 60px 20px 30px; }
+    .hero h1 { font-size: 2.4rem; margin-bottom: 10px; }
+    .hero p { color: #888; font-size: 1.1rem; max-width: 500px; margin: 0 auto; }
+    .section { padding: 30px 20px; max-width: 1200px; margin: 0 auto; }
+    .section h2 { font-size: 1.4rem; margin-bottom: 20px; color: #ccc; }
+    .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); gap: 20px; }
+    .card { background: #151515; border-radius: 16px; overflow: hidden; transition: transform 0.2s; }
+    .card:hover { transform: scale(1.03); }
+    .card img { width: 100%; aspect-ratio: 9/19.5; object-fit: cover; }
+    .card .label { padding: 12px; text-align: center; font-size: 0.85rem; color: #aaa; }
+    .how-it-works { background: #111; border-radius: 16px; padding: 30px; margin: 40px auto; max-width: 700px; }
+    .how-it-works h2 { margin-bottom: 16px; }
+    .how-it-works ol { padding-left: 20px; line-height: 2; color: #aaa; }
+    .how-it-works li strong { color: #fff; }
+    .badge { display: inline-block; background: #222; padding: 4px 10px; border-radius: 8px; font-size: 0.75rem; color: #888; margin-top: 6px; }
+    footer { text-align: center; padding: 40px 20px; color: #444; font-size: 0.85rem; }
+    a { color: #4A90D9; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+  </style>
+</head>
+<body>
+  <div class="hero">
+    <h1>🎨 iPhone Wallpaper Automation</h1>
+    <p>Custom wallpapers that swap automatically via iOS Shortcuts. My phone dresses itself.</p>
+    <br>
+    <span class="badge">iPhone 14 · 1170 × 2532</span>
+  </div>
+
+  <div class="section">
+    <h2>⏰ Time-Based</h2>
+    <div class="grid">
+      <div class="card">
+        <img src="/wallpapers/time-based/morning.png" alt="Morning wallpaper">
+        <div class="label">☀️ Morning · 6 AM</div>
+      </div>
+      <div class="card">
+        <img src="/wallpapers/time-based/evening.png" alt="Evening wallpaper">
+        <div class="label">🌅 Evening · 6 PM</div>
+      </div>
+      <div class="card">
+        <img src="/wallpapers/time-based/night.png" alt="Night wallpaper">
+        <div class="label">🌙 Night · 10 PM</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="section">
+    <h2>📍 Location-Based</h2>
+    <div class="grid">
+      <div class="card">
+        <img src="/wallpapers/time-based/morning.png" alt="Work wallpaper">
+        <div class="label">💼 Work · Focus Mode</div>
+      </div>
+      <div class="card">
+        <img src="/wallpapers/location-based/home.png" alt="Home wallpaper">
+        <div class="label">🏠 Home · Cozy Vibes</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="section">
+    <h2>🎭 Mood / Context</h2>
+    <div class="grid">
+      <div class="card">
+        <img src="/wallpapers/mood/lowpower.png" alt="Low power wallpaper">
+        <div class="label">🔋 Low Power · Pure Black</div>
+      </div>
+      <div class="card">
+        <img src="/wallpapers/mood/workout.png" alt="Workout wallpaper">
+        <div class="label">🏋️ Workout · Let's Go</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="how-it-works">
+      <h2>🔧 How It Works</h2>
+      <ol>
+        <li><strong>Design</strong> wallpapers in Illustrator → export as PNG</li>
+        <li>Upload to <strong>iCloud Drive</strong> or a Photos album</li>
+        <li>Create <strong>iOS Shortcuts</strong> with "Set Wallpaper" action</li>
+        <li>Add <strong>automation triggers</strong> (time, location, low power)</li>
+        <li>Disable "Ask Before Running" → runs silently ✨</li>
+      </ol>
+    </div>
+  </div>
+
+  <footer>
+    Made with ☕ by <a href="https://github.com/RishikeshVadodaria">@RishikeshVadodaria</a>
+    · <a href="https://github.com/RishikeshVadodaria/iphone-wallpaper">GitHub Repo</a>
+  </footer>
+</body>
+</html>

@@ -61,7 +61,7 @@ Check out [`shortcuts/README.md`](shortcuts/README.md) for the full setup guide.
 | iPhone 15 / 14 | 1170 × 2532 |
 | iPhone SE | 750 × 1334 |
 
-All wallpapers target **iPhone 15 Pro Max** res and scale down fine.
+All wallpapers currently target **iPhone 14** (1170 × 2532).
 
 ---
 
